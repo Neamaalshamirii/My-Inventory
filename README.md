@@ -10,7 +10,8 @@
 
 ## Screenshot
 
-![WhatsApp Image 2025-10-25 at 17 20 49_24866d51](https://github.com/user-attachments/assets/6891cf56-05cf-4581-8f2b-04b96a048c31)
+<img width="1599" height="808" alt="image" src="https://github.com/user-attachments/assets/7621dc0e-94b5-4e95-9e6c-821fcf83db07" />
+
 
 
 ---
