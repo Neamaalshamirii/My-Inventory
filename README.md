@@ -10,8 +10,8 @@
 
 ## Screenshot
 
-![Screenshot](./screenshot.png)  
-*Replace `screenshot.png` with your actual app screenshot.*
+![WhatsApp Image 2025-10-25 at 17 20 49_24866d51](https://github.com/user-attachments/assets/6891cf56-05cf-4581-8f2b-04b96a048c31)
+
 
 ---
 
