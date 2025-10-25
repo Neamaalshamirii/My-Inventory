@@ -8,7 +8,7 @@
 
 ---
 
-## Screenshot
+## Website Screenshot
 
 <img width="1599" height="808" alt="image" src="https://github.com/user-attachments/assets/7621dc0e-94b5-4e95-9e6c-821fcf83db07" />
 
