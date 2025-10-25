@@ -1,50 +1,60 @@
-My Inventory
+# My Inventory
 
-My Inventory is a simple and intuitive web application to manage products, track inventory, and handle orders efficiently. Built with React, Vite, and a custom context-based state management system, it allows users to add, remove, and manage items with ease.
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-7.1.11-yellow?logo=vite)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Features
+**My Inventory** is a simple and intuitive web application to manage products, track inventory, and handle orders efficiently. Built with React, Vite, and a custom context-based state management system, it allows users to add, remove, and manage items with ease.
 
-Add & Remove Items – Easily manage your inventory by adding new products or removing existing ones.
+---
 
-Track Inventory – Monitor current stock levels for all items.
+## Screenshot
 
-Place Orders – Process orders and automatically update inventory levels.
+![Screenshot](./screenshot.png)  
+*Replace `screenshot.png` with your actual app screenshot.*
 
-Reset Data – Clear all inventory and order data when needed.
+---
 
-User-Friendly Interface – Clean UI with reusable components like Buttons, Cards, and Inputs.
+## Features
 
-Technologies Used
+- **Add & Remove Items** – Easily manage your inventory by adding new products or removing existing ones.  
+- **Track Inventory** – Monitor current stock levels for all items.  
+- **Place Orders** – Process orders and automatically update inventory levels.  
+- **Reset Data** – Clear all inventory and order data when needed.  
+- **User-Friendly Interface** – Clean UI with reusable components like Buttons, Cards, and Inputs.  
 
-React – Frontend library for building interactive UI.
+---
 
-Vite – Fast and modern build tool for development.
+## Technologies Used
 
-Context API – For state management (StoreContext) to share inventory and order data across components.
+- **React** – Frontend library for building interactive UI.  
+- **Vite** – Fast and modern build tool for development.  
+- **Context API** – For state management (`StoreContext`) to share inventory and order data across components.  
+- **JavaScript & CSS** – Core frontend technologies.  
 
-JavaScript & CSS – Core frontend technologies.
+---
 
-Installation
+## Installation
 
-Clone the repository:
-
+### 1. Clone the repository
+```bash
 git clone https://github.com/Neamaalshamirii/My-Inventory.git
 cd My-Inventory
 
 
-Install dependencies:
+### 2. Install dependencies
 
 npm install
 
-
-Start the development server:
+### 3. Start the development server
 
 npm run dev
 
+Open your browser and navigate to http://localhost:5173/
+.
 
-Open your browser and navigate to http://localhost:5173/.
+**Project Structure**
 
-Project Structure
 My-Inventory/
 ├── public/              # Static assets
 ├── src/
@@ -56,22 +66,18 @@ My-Inventory/
 ├── package.json
 └── vite.config.js
 
-Usage
+**Usage**
 
-Navigate to the Dashboard to view current inventory.
+1- Navigate to the Dashboard to view current inventory.
 
-Add new items by entering a name and quantity, then click Add.
+2- Add new items by entering a name and quantity, then click Add.
 
-Remove items or adjust inventory quantities as needed.
+3- Remove items or adjust inventory quantities as needed.
 
-Place orders to simulate stock updates.
+4- Place orders to simulate stock updates.
 
-Use Reset Data to clear all inventory and orders.
+5- Use Reset Data to clear all inventory and orders.
 
-Contributing
+**Contributing**
 
 Contributions are welcome! Feel free to submit issues or pull requests for improvements or bug fixes.
-
-License
-
-This project is open-source and available under the MIT License.
