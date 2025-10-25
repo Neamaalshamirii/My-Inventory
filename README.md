@@ -41,20 +41,21 @@
 ```bash
 git clone https://github.com/Neamaalshamirii/My-Inventory.git
 cd My-Inventory
-
+```
 
 ### 2. Install dependencies
-
+```bash
 npm install
-
+```
 ### 3. Start the development server
-
+```bash
 npm run dev
+```
 
 Open your browser and navigate to http://localhost:5173/
 .
 
-**Project Structure**
+## **Project Structure**
 
 My-Inventory/
 ├── public/              # Static assets
@@ -67,18 +68,18 @@ My-Inventory/
 ├── package.json
 └── vite.config.js
 
-**Usage**
+## **Usage**
 
-1- Navigate to the Dashboard to view current inventory.
+### 1- Navigate to the Dashboard to view current inventory.
 
-2- Add new items by entering a name and quantity, then click Add.
+### 2- Add new items by entering a name and quantity, then click Add.
 
-3- Remove items or adjust inventory quantities as needed.
+### 3- Remove items or adjust inventory quantities as needed.
 
-4- Place orders to simulate stock updates.
+### 4- Place orders to simulate stock updates.
 
-5- Use Reset Data to clear all inventory and orders.
+### 5- Use Reset Data to clear all inventory and orders.
 
-**Contributing**
+## **Contributing**
 
 Contributions are welcome! Feel free to submit issues or pull requests for improvements or bug fixes.
