@@ -1,18 +1,77 @@
-# React + Vite
+My Inventory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My Inventory is a simple and intuitive web application to manage products, track inventory, and handle orders efficiently. Built with React, Vite, and a custom context-based state management system, it allows users to add, remove, and manage items with ease.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add & Remove Items – Easily manage your inventory by adding new products or removing existing ones.
 
-## React Compiler
+Track Inventory – Monitor current stock levels for all items.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Place Orders – Process orders and automatically update inventory levels.
 
-Note: This will impact Vite dev & build performances.
+Reset Data – Clear all inventory and order data when needed.
 
-## Expanding the ESLint configuration
+User-Friendly Interface – Clean UI with reusable components like Buttons, Cards, and Inputs.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies Used
+
+React – Frontend library for building interactive UI.
+
+Vite – Fast and modern build tool for development.
+
+Context API – For state management (StoreContext) to share inventory and order data across components.
+
+JavaScript & CSS – Core frontend technologies.
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/Neamaalshamirii/My-Inventory.git
+cd My-Inventory
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Open your browser and navigate to http://localhost:5173/.
+
+Project Structure
+My-Inventory/
+├── public/              # Static assets
+├── src/
+│   ├── components/      # React components (Dashboard, Navbar, etc.)
+│   ├── context/         # StoreContext for global state management
+│   ├── ui/              # Reusable UI components (Button, Card, Input)
+│   ├── index.css        # Global styles
+│   └── main.jsx         # Entry point
+├── package.json
+└── vite.config.js
+
+Usage
+
+Navigate to the Dashboard to view current inventory.
+
+Add new items by entering a name and quantity, then click Add.
+
+Remove items or adjust inventory quantities as needed.
+
+Place orders to simulate stock updates.
+
+Use Reset Data to clear all inventory and orders.
+
+Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests for improvements or bug fixes.
+
+License
+
+This project is open-source and available under the MIT License.
