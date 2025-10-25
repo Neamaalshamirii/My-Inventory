@@ -55,18 +55,6 @@ npm run dev
 Open your browser and navigate to http://localhost:5173/
 .
 
-## **Project Structure**
-
-My-Inventory/
-├── public/              # Static assets
-├── src/
-│   ├── components/      # React components (Dashboard, Navbar, etc.)
-│   ├── context/         # StoreContext for global state management
-│   ├── ui/              # Reusable UI components (Button, Card, Input)
-│   ├── index.css        # Global styles
-│   └── main.jsx         # Entry point
-├── package.json
-└── vite.config.js
 
 ## **Usage**
 
